@@ -1,0 +1,9 @@
+<h3>for loop rendering from an array of objects</h3>
+<div>
+    @for(e of persons; track e.id) {
+        <div style="border: 1px solid black; margin: 20px;">
+            <p style="margin: 10px;">name: {{ e.name }}</p>
+            <p style="margin: 10px;">@if(e.isAdmin) {ADMIN} @else {NOT ADMIN}</p>
+        </div>
+    }
+</div>
