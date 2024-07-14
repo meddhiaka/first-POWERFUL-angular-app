@@ -1,0 +1,12 @@
+<h3>Conditional rendering of components with multiple choices (3)</h3>
+<div>
+    @if(b === 1) {
+    <p>if rendered as component 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, magnam?</p>
+    } @else if(b === 2) {
+    <p>if rendered as component 2 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat natus molestias recusandae nostrum ducimus quod, soluta amet animi placeat velit.</p>
+    } @else if(b === 3) {
+    <p>if rendered as component 3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam a, quas, recusandae consequuntur sequi delectus dolore nemo mollitia illum eveniet consectetur iste ab sit omnis laborum aut minima reprehenderit ea.</p>
+    }
+</div>
+
+<button (click)="toggleComponent()">click to render another component</button>
