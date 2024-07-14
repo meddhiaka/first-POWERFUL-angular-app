@@ -6,4 +6,26 @@
   <app-condtionalcomponentrender></app-condtionalcomponentrender>
   <hr>
   <app-forlooprendering></app-forlooprendering>
+  <hr>
+  <h1>Simulation of navigation bar & advanced routing stuff!</h1>
+  <div>
+    <h5>Navigation bar</h5>
+    <nav style="border: 1px solid black;">
+      <ul style="list-style: none;">
+        <li>
+          <a routerLink="/firstpage" routerLinkActive="active">navigate to first page</a>
+        </li>
+        <li>
+          <a routerLink="/secondpage">navigate to second page</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <router-outlet></router-outlet>
+  <br>
+  <hr>
+  <div>
+    <h1>Image optimazation</h1>
+    <img priority ngSrc="hello.webp" width="640" height="480" alt="Hero image" />
+  </div>
 </main>
